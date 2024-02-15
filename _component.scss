@@ -1,0 +1,358 @@
+@import 'color';
+@import 'variable';
+@import 'mixin';
+@import 'typography';
+
+// buttons 
+
+// btn-primary
+@mixin btn-primary-sm {
+    @include px-16();
+    height: $h-sm;
+    @include color-text-white();
+    @include round-8();
+    @include style-btn-primary();
+    @include text-body-medium();
+    transition: background-color 0.6 ease;
+    max-width: max-content;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-primary-hover();
+    }
+    &:active {
+        @include style-btn-primary-active();
+    }
+}
+@mixin btn-primary-md {
+    @include px-16();
+    height: $h-md;
+    @include color-text-white();
+    @include round-8();
+    @include style-btn-primary();
+    @include text-body-medium();
+    transition: background-color 0.6 ease;
+    max-width: max-content;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-primary-hover();
+    }
+    &:active {
+        @include style-btn-primary-active();
+    }
+}
+@mixin btn-primary-lg {
+    @include px-16();
+    height: $h-lg;
+    @include color-text-white();
+    @include round-8();
+    @include style-btn-primary();
+    @include text-body-medium();
+    transition: background-color 0.6 ease;
+    transition: box-shadow 0.5 ease;
+    max-width: max-content;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-primary-hover();
+    }
+    &:active {
+        @include style-btn-primary-active();
+    }
+}
+// btn-secondary-gray
+@mixin btn-secondary-gray-sm {
+    @include px-16();
+    height: $h-sm;
+    @include color-text-body();
+    @include round-8();
+    @include style-btn-secondary-gray();
+    @include text-body-medium();
+    transition: background-color 0.6 ease;
+    transition: box-shadow 0.5 ease;
+    max-width: max-content;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-secondary-gray-hover();
+    }
+    &:active {
+        @include style-btn-secondary-gray-active();
+    }
+}
+@mixin btn-secondary-gray-md {
+    @include px-16();
+    height: $h-md;
+    @include color-text-body();
+    @include round-8();
+    @include style-btn-secondary-gray();
+    @include text-body-medium();
+    transition: background-color 0.6 ease;
+    transition: box-shadow 0.5 ease;
+    max-width: max-content;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-secondary-gray-hover();
+    }
+    &:active {
+        @include style-btn-secondary-gray-active();
+    }
+}
+@mixin btn-secondary-gray-lg {
+    @include px-16();
+    height: $h-lg;
+    @include color-text-body();
+    @include round-8();
+    @include style-btn-secondary-gray();
+    @include text-body-medium();
+    transition: background-color 0.6 ease;
+    transition: box-shadow 0.5 ease;
+    max-width: max-content;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-secondary-gray-hover();
+    }
+    &:active {
+        @include style-btn-secondary-gray-active();
+    }
+}
+// btn-secondary-color
+@mixin btn-secondary-color-sm {
+    @include px-16();
+    height: $h-sm;
+    @include color-text-primary();
+    @include round-8();
+    @include style-btn-secondary-color();
+    @include text-body-medium();
+    transition: background-color 0.6 ease;
+    transition: box-shadow 0.5 ease;
+    max-width: max-content;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-secondary-color-hover();
+    }
+    &:active {
+        @include style-btn-secondary-color-active();
+    }
+}
+@mixin btn-secondary-color-md {
+    @include px-16();
+    height: $h-md;
+    @include color-text-primary();
+    @include round-8();
+    @include style-btn-secondary-color();
+    @include text-body-medium();
+    transition: background-color 0.6 ease;
+    transition: box-shadow 0.5 ease;
+    max-width: max-content;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-secondary-color-hover();
+    }
+    &:active {
+        @include style-btn-secondary-color-active();
+    }
+}
+@mixin btn-secondary-color-lg {
+    @include px-16();
+    height: $h-lg;
+    @include color-text-primary();
+    @include round-8();
+    @include style-btn-secondary-color();
+    @include text-body-medium();
+    max-width: max-content;
+    transition: background-color 0.6 ease;
+    transition: box-shadow 0.5 ease;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-secondary-color-hover();
+    }
+    &:active {
+        @include style-btn-secondary-color-active();
+    }
+}
+// btn-danger 
+@mixin btn-danger-sm {
+    @include px-16();
+    height: $h-sm;
+    @include color-text-white();
+    @include round-8();
+    @include style-btn-danger();
+    @include text-body-medium();
+    transition: background-color 0.6 ease;
+    transition: box-shadow 0.5 ease;
+    max-width: max-content;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-danger-hover();
+    }
+    &:active {
+        @include style-btn-danger-active();
+    }
+}
+@mixin btn-danger-md {
+    @include px-16();
+    height: $h-md;
+    @include color-text-white();
+    @include round-8();
+    @include style-btn-danger();
+    @include text-body-medium();
+    transition: background-color 0.6 ease;
+    transition: box-shadow 0.5 ease;
+    max-width: max-content;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-danger-hover();
+    }
+    &:active {
+        @include style-btn-danger-active();
+    }
+}
+@mixin btn-danger-lg {
+    @include px-16();
+    height: $h-lg;
+    @include color-text-white();
+    @include round-8();
+    @include style-btn-danger();
+    @include text-body-medium();
+    transition: background-color 0.6 ease;
+    transition: box-shadow 0.5 ease;
+    max-width: max-content;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-danger-hover();
+    }
+    &:active {
+        @include style-btn-danger-active();
+    }
+}
+// btn-icon-primary 
+@mixin btn-icon-primary-sm {
+    padding: 8px 8px;
+    @include color-text-white();
+    @include round-8();
+    @include style-btn-primary();
+    max-width: $w-sm;
+    max-height: $h-sm;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-icon-primary-hover();
+    }
+    &:active {
+        @include style-btn-icon-primary-active();
+    }
+}
+@mixin btn-icon-primary-md {
+    padding: 10px 10px;
+    @include color-text-white();
+    @include round-8();
+    @include style-btn-primary();
+    max-width: $w-md;
+    max-height: $h-md;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-icon-primary-hover();
+    }
+    &:active {
+        @include style-btn-icon-primary-active();
+    }
+}
+@mixin btn-icon-primary-lg {
+    padding: 12px 12px;
+    @include color-text-white();
+    @include round-8();
+    @include style-btn-primary();
+    max-width: $w-lg;
+    max-height: $h-lg;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-icon-primary-hover();
+    }
+    &:active {
+        @include style-btn-icon-primary-active();
+    }
+}
+// btn-icon-secondary 
+@mixin btn-icon-secondary-sm {
+    padding: 8px 8px;
+    @include color-text-body();
+    @include round-8();
+    @include style-btn-secondary-gray();
+    max-width: $w-sm;
+    max-height: $h-sm;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-secondary-gray-hover();
+    }
+    &:active {
+        @include style-btn-secondary-gray-active();
+    }
+}
+@mixin btn-icon-secondary-md {
+    padding: 10px 10px;
+    @include color-text-body();
+    @include round-8();
+    @include style-btn-secondary-gray();
+    max-width: $w-md;
+    max-height: $h-md;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-secondary-gray-hover();
+    }
+    &:active {
+        @include style-btn-secondary-gray-active();
+    }
+}
+@mixin btn-icon-secondary-lg {
+    padding: 12px 12px;
+    @include color-text-body();
+    @include round-8();
+    @include style-btn-secondary-gray();
+    max-width: $w-lg;
+    max-height: $h-lg;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    &:hover {
+        @include style-btn-secondary-gray-hover();
+    }
+    &:active {
+        @include style-btn-secondary-gray-active();
+    }
+}
+
+// input form
+
+@mixin store-input {
+    @include px-16();
+    height: $h-sm;
+    @include round-8();
+    @include text-body-regular();
+    @include color-text-body();
+    background-color: $color-neutral-0;
+    border: 1px solid $color-neutral-100;
+    @include shadow-xs;
+    &:focus {
+        border: 1px solid $color-primary;
+        @include shadow-primary();
+    }
+}
