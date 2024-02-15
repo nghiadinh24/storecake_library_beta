@@ -1,0 +1,352 @@
+@import 'color';
+@import 'variable';
+@import 'mixin';
+@import 'component';
+@import 'typography';
+
+// Color
+
+// Text color 
+
+.color-text-title {
+    @include color-text-title();
+}
+.color-text-secondary-title {
+    @include color-text-secondary-title();
+}
+.color-text-body {
+    @include color-text-body();
+}
+.color-text-footnote {
+    @include color-text-footnote();
+}
+.color-text-disable {
+    @include color-text-disable();
+}
+.color-text-muted {
+    @include color-text-muted();
+}
+.color-text-primary {
+    @include color-text-primary();
+}
+.color-text-link {
+    @include color-text-link();
+}
+.color-text-secondary-link {
+    @include color-text-secondary-link();
+}
+.color-text-danger {
+    @include color-text-danger();
+}
+.color-text-pending {
+    @include color-text-pending();
+}
+.color-text-sucess {
+    @include color-text-sucess();
+}
+.color-text-blue {
+    @include color-text-blue();
+}
+.color-text-purple {
+    @include color-text-purple();
+}
+
+// background color 
+
+.color-bg-primary {
+    @include color-bg-primary();
+}
+.color-bg-white {
+    @include color-bg-white();
+}
+.color-bg-gray {
+    @include color-bg-gray();
+}
+.color-bg-disable {
+    @include color-bg-disable();
+}
+.color-bg-soft-primary {
+    @include color-bg-soft-primary();
+}
+.color-bg-sucess {
+    @include color-bg-sucess();
+}
+.color-bg-pending {
+    @include color-bg-pending();
+}
+.color-bg-danger {
+    @include color-bg-danger();
+}
+.color-bg-blue {
+    @include color-bg-blue();
+}
+.color-bg-purple {
+    @include color-bg-purple();
+}
+
+// display
+
+.d-flex {
+    display: flex;
+}
+.d-block {
+    display: block;
+}
+.d-inline-flex {
+    display: inline-flex;
+}
+.d-inline-block {
+    display:  inline-block;
+}
+.d-flexbox {
+    display: flexbox;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+}
+
+
+
+
+// spacing 
+
+// gap 
+
+.gap-0 {
+    @include gap-0();
+}
+.gap-1 {
+    @include gap-1();
+}
+.gap-2 {
+    @include gap-2();
+}
+.gap-4 {
+    @include gap-4();
+}
+.gap-8 {
+    @include gap-8();
+}
+.gap-16 {
+    @include gap-16();
+}
+.gap-24 {
+    @include gap-24();
+}
+.gap-32 {
+    @include gap-32();
+}
+.gap-40 {
+    @include gap-40();
+}
+.gap-48 {
+    @include gap-48();
+}
+//  border 
+
+.color-border-gray {
+    @include color-border-gray();
+}
+.color-border-primary {
+    @include color-border-primary();
+}
+.color-border-secondary {
+    @include color-border-secondary();
+}
+
+// End color
+
+
+// Elevation 
+
+.shadow-xs {
+    @include shadow-xs();
+}
+.shadow-sm {
+    @include shadow-sm();
+}
+.shadow-md {
+    @include shadow-md();
+}
+.shadow-lg {
+    @include shadow-lg();
+}
+.shadow-xl {
+    @include shadow-xl();
+}
+.shadow-xx {
+    @include shadow-xx();
+}
+.shadow-primary {
+    @include shadow-primary();
+}
+
+// border-radius 
+
+.round-0 {
+    @include round-0();
+}
+.round-2 {
+    @include round-2();
+}
+.round-4 {
+    @include round-4();
+}
+.round-8 {
+    @include round-8();
+}
+.round-12 {
+    @include round-12();
+}
+.round-16 {
+    @include round-16();
+}
+
+// stroke 
+
+.border-solid-0 {
+    @include border-solid-0();
+}
+.border-solid-1 {
+    @include border-solid-1();
+}
+.border-solid-2 {
+    @include border-solid-2();
+}
+.border-dash-1 {
+    @include border-dash-1();
+}
+
+// buttons 
+
+.btn-primary-sm {
+    @include btn-primary-sm();
+}
+.btn-primary-md {
+    @include btn-primary-md();
+}
+.btn-primary-lg {
+    @include btn-primary-lg();
+}
+.btn-secondary-gray-sm {
+    @include btn-secondary-gray-sm();
+}
+.btn-secondary-gray-md {
+    @include btn-secondary-gray-md();
+}
+.btn-secondary-gray-lg {
+    @include btn-secondary-gray-lg();
+}
+.btn-secondary-color-sm {
+    @include btn-secondary-color-sm();
+}
+.btn-secondary-color-md {
+    @include btn-secondary-color-md();
+}
+.btn-secondary-color-lg {
+    @include btn-secondary-color-lg();
+}
+.btn-danger-sm {
+    @include btn-danger-sm();
+}
+.btn-danger-md {
+    @include btn-danger-md();
+}
+.btn-danger-lg {
+    @include btn-danger-lg();
+}
+.btn-icon-primary-sm {
+    @include btn-icon-primary-sm();
+}
+.btn-icon-primary-md {
+    @include btn-icon-primary-md();
+}
+.btn-icon-primary-lg {
+    @include btn-icon-primary-lg();
+}
+.btn-icon-secondary-sm {
+    @include btn-icon-secondary-sm();
+}
+.btn-icon-secondary-md {
+    @include btn-icon-secondary-md();
+}
+.btn-icon-secondary-lg {
+    @include btn-icon-secondary-lg();
+}
+
+// input form 
+.store-input {
+    @include store-input();
+}
+.input-label {
+    @include input-label();
+}
+
+// text 
+
+.text-heading-h0 {
+    @include text-heading-h0();
+}
+.text-heading-h1-regular {
+    @include text-heading-h1-regular();
+}
+.text-heading-h1-medium  {
+    @include text-heading-h1-medium();
+}
+.text-heading-h1-bold  {
+    @include text-heading-h1-bold();
+}
+.text-heading-h2-regular {
+    @include text-heading-h2-regular();
+}
+.text-heading-h2-medium  {
+    @include text-heading-h2-medium();
+}
+.text-heading-h2-bold  {
+    @include text-heading-h2-bold();
+}
+.text-heading-h3-regular {
+    @include text-heading-h3-regular();
+}
+.text-heading-h3-medium  {
+    @include text-heading-h3-medium();
+}
+.text-heading-h3-bold  {
+    @include text-heading-h3-bold();
+}
+.text-heading-h4-regular {
+    @include text-heading-h4-regular();
+}
+.text-heading-h4-medium  {
+    @include text-heading-h4-medium();
+}
+.text-heading-h4-bold  {
+    @include text-heading-h4-bold();
+}
+.text-heading-h5-regular {
+    @include text-heading-h5-regular();
+}
+.text-heading-h5-medium  {
+    @include text-heading-h5-medium();
+}
+.text-heading-h5-bold  {
+    @include text-heading-h5-bold();
+}
+.text-body-regular {
+    @include text-body-regular();
+}
+.text-body-medium {
+    @include text-body-medium();
+}
+.text-body-bold {
+    @include text-body-bold();
+}
+.text-footnote-regular {
+    @include text-footnote-regular();
+}
+.text-footnote-bold {
+    @include text-footnote-bold();
+}
