@@ -1,0 +1,173 @@
+// font-family
+$fontFamily: Roboto, sans-serif;
+$fontFamilymono:'Roboto Mono', monospace;
+// font-weight
+$weight-regular:400;
+$weight-medium:500;
+$weight-bold:700;
+// line-height
+$height-h0:54px;
+$height-h1:46px;
+$height-h2:38px;
+$height-h3:32px;
+$height-h4:24px;
+$height-h5:24px;
+$height-body:22px;
+$height-footnote:16px;
+// font-size
+$h0:46px;
+$h1:38px;
+$h2:30px;
+$h3:24px;
+$h4:20px;
+$h5:16px;
+$body:14px;
+$footnote:12px;
+
+// font-style
+
+$style-normal:normal;
+@mixin typo {
+    font-family: $fontFamily;
+    font-style: $style-normal;
+}
+// general-typo
+@mixin heading-0 {
+    @include typo();
+    font-size: $h0;
+    line-height: $height-h0;
+}
+@mixin heading-h1 {
+    @include typo();
+    font-size: $h1;
+    line-height: $height-h1
+}
+@mixin heading-h2 {
+    @include typo();
+    font-size: $h2;
+    line-height: $height-h2
+}
+@mixin heading-h3 {
+    @include typo();
+    font-size: $h3;
+    line-height: $height-h3
+}
+@mixin heading-h4 {
+    @include typo();
+    font-size: $h4;
+    line-height: $height-h4
+}
+@mixin heading-h5 {
+    @include typo();
+    font-size: $h5;
+    line-height: $height-h5;
+}
+@mixin body {
+    @include typo();
+    font-size: $body;
+    line-height: $height-body;
+}
+@mixin footnote {
+    @include typo();
+    font-size: $footnote;
+    line-height: $height-footnote;
+}
+@mixin mono-regular {
+    font-family: $fontFamilymono;
+    font-size: $footnote;
+    font-weight: $weight-regular;
+    line-height: $height-footnote
+}
+@mixin mono-medium {
+    font-family: $fontFamilymono;
+    font-size: $footnote;
+    font-weight: $weight-medium;
+    line-height: $height-footnote;
+}
+// font-emphasis
+@mixin text-heading-h0 {
+    @include typo();
+    @include heading-0();
+    font-weight: $weight-regular;
+}
+@mixin text-heading-h1-regular {
+    @include heading-h1();
+    font-weight: $weight-regular ;
+}
+@mixin text-heading-h1-medium {
+    @include heading-h1();
+    font-weight: $weight-medium;
+}
+@mixin text-heading-h1-bold {
+    @include heading-h1();
+    font-weight: $weight-bold;
+}
+@mixin text-heading-h2-regular{
+    @include heading-h2();
+    font-weight: $weight-regular;
+}
+@mixin text-heading-h2-medium{
+    @include heading-h2();
+    font-weight: $weight-medium;
+}
+@mixin text-heading-h2-bold{
+    @include heading-h2();
+    font-weight: $weight-bold;
+}
+@mixin text-heading-h3-regular{
+    @include heading-h3();
+    font-weight: $weight-regular;
+}
+@mixin text-heading-h3-medium {
+    @include heading-h3();
+    font-weight: $weight-medium;
+}
+@mixin text-heading-h3-bold {
+    @include heading-h3();
+    font-weight: $weight-bold;
+}
+@mixin text-heading-h4-regular {
+    @include heading-h4();
+    font-weight: $weight-regular;
+}
+@mixin text-heading-h4-medium {
+    @include heading-h4();
+    font-weight: $weight-medium;
+}
+@mixin text-heading-h4-bold {
+    @include heading-h4();
+    font-weight: $weight-bold;
+}
+@mixin text-heading-h5-regular {
+    @include heading-h5();
+    font-weight: $weight-regular;
+}
+@mixin text-heading-h5-medium {
+    @include heading-h5();
+    font-weight: $weight-medium;
+}
+@mixin text-heading-h5-bold {
+    @include heading-h5();
+    font-weight: $weight-bold;
+}
+@mixin text-body-regular {
+    @include body();
+    font-weight: $weight-regular;
+}
+@mixin text-body-medium {
+    @include body();
+    font-weight: $weight-medium;
+}
+@mixin text-body-bold {
+    @include body();
+    font-weight: $weight-bold;
+}
+@mixin text-footnote-regular {
+    @include footnote();
+    font-weight: $weight-regular;
+}
+@mixin text-footnote-bold {
+    @include footnote();
+    font-weight: $weight-bold;
+}
+
