@@ -1,0 +1,102 @@
+// primary-colors
+$color-primary: #00C1A2;
+$color-primary-50: #E7F7F3;
+$color-primary-100: #B8E6D9;
+$color-primary-200: #89D5C1;
+$color-primary-300: #57C2A9;
+$color-primary-400: #15AF93;
+$color-primary-500: #009A7E;
+$color-primary-600: #00856A;
+$color-primary-700: #006F57;
+$color-primary-800: #005A45;
+$color-primary-900: #004434;
+// neutral-colors
+$color-neutral-0: #FFFFFF;
+$color-neutral-50: #F3F4F4;
+$color-neutral-100: #DBDDDE;
+$color-neutral-200: #C4C7C8;
+$color-neutral-300: #AEB1B3;
+$color-neutral-400: #989C9E;
+$color-neutral-500: #838789;
+$color-neutral-600: #6F7275;
+$color-neutral-700: #5C5F61;
+$color-neutral-800: #494C4E;
+$color-neutral-900: #37393B;
+$color-neutral: #25282A;
+
+// sematic-color 
+$color-sematic-sucess: #15942a;
+$color-sematic-pending: #faad14;
+$color-sematic-danger: #ff4d4f;
+$color-sematic-blue: #40A9FF;
+
+// color-text 
+
+$color-text-title: $color-neutral;
+$color-text-white: $color-neutral-0;
+$color-text-secondary-title: $color-neutral-900;
+$color-text-body: $color-neutral-800;
+$color-text-footnote: $color-neutral-700;
+$color-text-disable: $color-neutral-600;
+$color-text-muted: $color-neutral-500;
+$color-text-primary: $color-primary;
+$color-text-link: $color-sematic-blue;
+$color-text-secondary-link: $color-neutral-900;
+$color-text-danger: $color-sematic-danger;
+$color-text-pending: $color-sematic-pending;
+$color-text-sucess: $color-sematic-sucess;
+$color-text-blue: $color-sematic-blue;
+
+// color-bg
+
+$color-bg-primary: $color-primary;
+$color-bg-white: $color-neutral-0;
+$color-bg-gray: $color-neutral-50;
+$color-bg-disable: $color-neutral-100;
+$color-bg-soft-primary: $color-primary-50;
+$color-bg-sucess: $color-sematic-sucess;
+$color-bg-pending: $color-sematic-pending;
+$color-bg-danger: $color-sematic-danger;
+$color-bg-blue: $color-sematic-blue;
+
+// color-border
+
+$color-border-gray: $color-neutral-100;
+$color-border-primary: $color-primary;
+$color-border-secondary: $color-primary-200;
+
+
+// spacing
+
+$spc-0: 0px;
+$spc-1: 1px;
+$spc-2: 2px;
+$spc-4: 4px;
+$spc-8: 8px;
+$spc-16: 16px;
+$spc-24: 24px;
+$spc-32: 32px;
+$spc-40: 40px;
+$spc-48: 48px;
+
+// border radius
+$radius-0: 0px;
+$radius-2: 2px;
+$radius-4: 4px;
+$radius-8: 8px;
+$radius-12: 12px;
+$radius-16: 16px;
+
+// height 
+
+$h-sm: 38px;
+$h-md: 42px;
+$h-lg: 46px;
+$h-xl: 56px;
+
+// width 
+
+$w-sm: 38px;
+$w-md: 42px;
+$w-lg: 46px;
+$w-xl: 56px;
